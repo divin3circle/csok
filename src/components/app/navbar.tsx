@@ -34,7 +34,7 @@ function Navbar() {
       </div>
 
       <Drawer>
-        <DrawerTrigger className="md:hidden flex items-center justify-center mx-8">
+        <DrawerTrigger className="md:hidden flex items-center justify-center mx-4">
           <IoMdMenu className="text-3xl text-body" color="#17252a" size={48} />
         </DrawerTrigger>
         <DrawerContent>
@@ -42,7 +42,7 @@ function Navbar() {
             <DrawerTitle>
               <div className="flex items-center justify-between">
                 <img src={logo} alt="logo" className="w-28 h-28" />
-                <button className="bg-primary px-8 mx-4 py-2 rounded-xl text-lg font-body text-white">
+                <button className="bg-primary px-8 py-2 rounded-xl text-lg font-body text-white">
                   Join us
                 </button>
               </div>
@@ -58,7 +58,7 @@ function Navbar() {
             <h1 className="font-body mx-2 text-lg cursor-pointer">Events</h1>
             <h1 className="font-body mx-2 text-lg cursor-pointer">Gallery</h1>
           </div>
-          <DrawerClose className="mb-20">
+          <DrawerClose className="mb-10">
             <button>Close</button>
           </DrawerClose>
         </DrawerContent>

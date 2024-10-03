@@ -25,7 +25,7 @@ function Hero() {
         <h1 className="md:text-[5rem] -mt-.5 text-5xl font-semibold text-white md:text-title font-body text-center">
           of Kimathi
         </h1>
-        <p className="md:text-2xl text-xl px-5 max-w-2xl text-body text-white md:text-black font-body text-center mt-28">
+        <p className="lg:text-2xl text-xl px-5 max-w-2xl text-body text-white md:text-black font-body text-center mt-28">
           A student-run community within Dedan Kimathi ​University of Technology
           dedicated to cultivating ​a strong tech community and empowerment!
         </p>
