@@ -5,21 +5,27 @@ import learn from "../../../public/csoklearn.jpg";
 
 function Hero() {
   return (
-    <div className="h-screen relative">
-      <div className="flex flex-col justify-center items-center">
-        <p className="text-2xl text-title font-body mt-52 mb-0 md:mb-8">
+    <div className="h-screen relative md:mt-0 -mt-2">
+      {/* Background and overlay for screens smaller than md */}
+      <div
+        className="absolute inset-0 bg-cover bg-center md:hidden"
+        style={{ backgroundImage: `url(${learn})` }}
+      >
+        <div className="absolute inset-0 bg-black opacity-50"></div>
+      </div>
+      <div className="flex flex-col justify-center items-center relative z-10 ">
+        <p className="text-2xl font-semibold text-white md:text-black font-body mt-72 md:mb-4 mb-2">
           Guide,
           <span className="text-body text-green-500">Uplift,</span>
           Impact
         </p>
-        <h1 className="md:text-[5rem] text-4xl font-semibold text-title font-body text-center">
+        <h1 className="md:text-[5rem] text-5xl font-semibold md:text-title text-white font-body text-center">
           Computer Society
         </h1>
-        <h1 className="md:text-[5rem] md:mt-8 -mt-1 text-4xl font-semibold text-title font-body text-center">
+        <h1 className="md:text-[5rem] md:mt-4 -mt-.5 text-5xl font-semibold text-white md:text-title font-body text-center">
           of Kimathi
         </h1>
-
-        <p className="md:text-2xl text-lg px-4 max-w-2xl text-body font-body text-center mt-12 md:mt-28">
+        <p className="md:text-2xl text-xl px-5 max-w-2xl text-body text-white md:text-black font-body text-center mt-28">
           A student-run community within Dedan Kimathi ​University of Technology
           dedicated to cultivating ​a strong tech community and empowerment!
         </p>
@@ -35,7 +41,7 @@ function Hero() {
         className="lg:h-[16rem] h-56 lg:w-96 w-72 rounded-[70%] object-cover absolute left-0 top-0 rotate-[4deg] hidden md:block"
       />
       <img
-        src={students}
+        src={learn}
         alt="students"
         className="lg:h-[20rem] h-[15rem] lg:w-[15rem] w-[13rem] rounded-[85%] object-cover absolute right-0 bottom-36 -rotate-[10deg] hidden md:block"
       />
