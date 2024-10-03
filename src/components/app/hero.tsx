@@ -22,7 +22,7 @@ function Hero() {
         <h1 className="md:text-[5rem] text-5xl font-semibold md:text-title text-white font-body text-center">
           Computer Society
         </h1>
-        <h1 className="md:text-[5rem] md:mt-4 -mt-.5 text-5xl font-semibold text-white md:text-title font-body text-center">
+        <h1 className="md:text-[5rem] -mt-.5 text-5xl font-semibold text-white md:text-title font-body text-center">
           of Kimathi
         </h1>
         <p className="md:text-2xl text-xl px-5 max-w-2xl text-body text-white md:text-black font-body text-center mt-28">
