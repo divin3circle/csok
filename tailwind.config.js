@@ -11,7 +11,7 @@ export default {
         body: "##17252a",
         brush: "##def2f1",
         background: "#ffffff",
-        primary: "##1f1e1c",
+        primary: "#1f1e1c",
       },
     },
   },
