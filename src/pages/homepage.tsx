@@ -5,6 +5,7 @@ import About from "../components/app/about";
 import Vision from "../components/app/vision";
 import Team from "../components/app/team";
 import Testimonials from "../components/app/testimonials";
+import Footer from "../components/app/footer";
 
 function HomePage() {
   return (
@@ -15,6 +16,7 @@ function HomePage() {
       <Vision />
       <Team />
       <Testimonials />
+      <Footer />
     </div>
   );
 }

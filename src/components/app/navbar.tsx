@@ -28,9 +28,13 @@ function Navbar() {
         <h1 className="font-body mx-2 lg:text-lg cursor-pointer">Gallery</h1>
       </div>
       <div className="hidden md:flex items-center justify-center">
-        <button className="bg-primary lg:px-12 px-4 py-2 rounded-xl lg:text-lg font-body text-white mr-8">
+        <a
+          className="bg-primary lg:px-12 px-4 py-2 rounded-xl lg:text-lg font-body text-white mr-8"
+          href="https://chat.whatsapp.com/IIRGp3f7kdjDYn57HL6UU5"
+          target="_blank"
+        >
           Join us
-        </button>
+        </a>
       </div>
 
       <Drawer>
