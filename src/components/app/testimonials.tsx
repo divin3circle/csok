@@ -1,20 +1,25 @@
 import React from "react";
+import prof from "../../../public/csokeleanora.jpeg";
 
 function Testimonials() {
   return (
     <div>
-      <section className="bg-white">
+      <section className="mt-8">
         <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-          <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-            Read trusted reviews from our customers
-          </h2>
+          <div className="flex items-center md:justify-between justify-center my-4">
+            <div className="h-1 rounded-lg bg-gray-500 w-[15%] hidden md:block"></div>
+            <h1 className="font-body text-title text-4xl lg:text-[4rem] text-center md:text-start md:mb-4 md:text-5xl">
+              Voices from Our Community
+            </h1>
+            <div className="h-1 rounded-lg bg-gray-500 w-[15%] hidden md:block"></div>
+          </div>
 
-          <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
+          <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8 my-12">
             <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
               <div className="flex items-center gap-4">
                 <img
                   alt=""
-                  src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+                  src={prof}
                   className="size-14 rounded-full object-cover"
                 />
 
@@ -63,24 +68,21 @@ function Testimonials() {
                   </div>
 
                   <p className="mt-0.5 text-lg font-medium text-gray-900">
-                    Paul Starr
+                    Professor Momanyi
                   </p>
                 </div>
               </div>
 
               <p className="mt-4 text-gray-700">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
-                sit rerum incidunt, a consequuntur recusandae ab saepe illo est
-                quia obcaecati neque quibusdam eius accusamus error officiis
-                atque voluptates magnam!
+                Momanyi is a lecturer at Dedan who is also profecient in the Luo
+                language.
               </p>
             </blockquote>
-
             <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
               <div className="flex items-center gap-4">
                 <img
                   alt=""
-                  src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+                  src={prof}
                   className="size-14 rounded-full object-cover"
                 />
 
@@ -129,24 +131,21 @@ function Testimonials() {
                   </div>
 
                   <p className="mt-0.5 text-lg font-medium text-gray-900">
-                    Paul Starr
+                    Professor Momanyi
                   </p>
                 </div>
               </div>
 
               <p className="mt-4 text-gray-700">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
-                sit rerum incidunt, a consequuntur recusandae ab saepe illo est
-                quia obcaecati neque quibusdam eius accusamus error officiis
-                atque voluptates magnam!
+                Momanyi is a lecturer at Dedan who is also profecient in the Luo
+                language.
               </p>
             </blockquote>
-
             <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
               <div className="flex items-center gap-4">
                 <img
                   alt=""
-                  src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+                  src={prof}
                   className="size-14 rounded-full object-cover"
                 />
 
@@ -195,16 +194,14 @@ function Testimonials() {
                   </div>
 
                   <p className="mt-0.5 text-lg font-medium text-gray-900">
-                    Paul Starr
+                    Professor Momanyi
                   </p>
                 </div>
               </div>
 
               <p className="mt-4 text-gray-700">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
-                sit rerum incidunt, a consequuntur recusandae ab saepe illo est
-                quia obcaecati neque quibusdam eius accusamus error officiis
-                atque voluptates magnam!
+                Momanyi is a lecturer at Dedan who is also profecient in the Luo
+                language.
               </p>
             </blockquote>
           </div>
