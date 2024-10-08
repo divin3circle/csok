@@ -6,6 +6,7 @@ import Vision from "../components/app/vision";
 import Team from "../components/app/team";
 import Testimonials from "../components/app/testimonials";
 import Footer from "../components/app/footer";
+import Events from "../components/app/events";
 
 function HomePage() {
   return (
@@ -15,6 +16,7 @@ function HomePage() {
       <About />
       <Vision />
       <Team />
+      <Events />
       <Testimonials />
       <Footer />
     </div>

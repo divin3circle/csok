@@ -17,7 +17,7 @@ function Team() {
           <img
             src={li}
             alt="lili"
-            className="rounded-full w-36 h-36 md:w-48 md:h-48 mb-4"
+            className="rounded-full w-36 h-36 md:w-44 md:h-44 mb-4"
           />
           <h1 className="font-body text-title text-2xl text-center md:text-start md:text-3xl">
             Lilian Wanjiku
@@ -30,7 +30,7 @@ function Team() {
           <img
             src={el}
             alt="lili"
-            className="rounded-full w-36 h-36 md:w-48 md:h-48"
+            className="rounded-full w-36 h-36 md:w-44 md:h-44"
           />
           <h1 className="font-body text-title text-2xl text-center md:text-start md:text-3xl">
             Eleanora Matalanga
